@@ -42,12 +42,9 @@
 }
 
 .pcFrame{
-  position:fixed;
-  top:0px;
-  left:0px;
+  position:absolute;
   height:100vh;
   width:100%;
-  margin: 0 auto;
  /* background-image: url(/src/assets/site_frame.png);
   background-position: center;
   background-repeat:no-repeat;
@@ -55,65 +52,92 @@
 }
 
 .name{
-  position:fixed;
-  top:2.5vh;
+  position:absolute;
+  top:-0.2vh;
   left:4%;
-  height:100vh;
-  width:100%;
-  margin: 0 auto;
-  /*font-family: PixelatedFont;*/
   font-weight:100;
-  font-size:3.5vh;
+  font-size:3vh;
+  line-height: 0;
   color:#b6b6ca;
   text-align: left;
-  line-height: 5%;
   pointer-events: none;
 }
 
-.crtLines{
+.pcEffects{
   position:fixed;
   top:0px;
   left:0px;
   height:100vh;
   width:100%;
   margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.crtLines{
+
 }
 
 .blueTint{
-  position:fixed;
-  top:5vh;
-  left:2.5%;
-  height:90vh;
-  width:95%;
-  margin: 0 auto;
+  position:absolute;
+  inset:5% 2.5%;
   background-color: #00c8ff1e;
   box-shadow: inset 0 0 150px #000000e7;
 }
 
 .screenStatic{
   position:absolute;
-  inset:-200%;
-  background-image:url(./assets/tvStatic.jpg);
-  opacity:5%;
-  animation: staticShift 0.2s linear infinite both;
+  inset:5% 2.5%;
+  background-image:url(./assets/tvStaticv2.jpg);
+  opacity:3%;
+  /*animation: staticShift 0.2s linear infinite both;*/
+  animation: staticShift 1.0s steps(1, end) infinite;
 }
 
 @keyframes staticShift{
-  0%{
-    transform:translateX(10%) translateY(10%);
+  /*0%{
+    background-position: 0;
   }
   100%{
-    transform:translateX(-10%) translateY(-10%);
-  }
+    background-position: 100%;
+  }*/
+10% {
+    background-position: -5% -10%;
+}
+20% {
+    background-position: -5% 5%;
+}
+30% {
+    background-position: 7% -5%;
+}
+40% {
+    background-position: -5% 5%;
+}
+50% {
+    background-position: -5% 10%;
+}
+60% {
+    background-position: 5% 0%;
+}
+70% {
+    background-position: 0% 5%;
+}
+80% {
+    background-position: 3% 5%;
+}
+90% {
+    background-position: -10% 10%;
+}
+100% {
+    background-position: -5% 5%;
+}
 }
 
 .blueGlow{
-  position:fixed;
-  top:5vh;
-  left:2.5%;
-  height:90vh;
-  width:95%;
-  margin: 0 auto;
+  position:absolute;
+  inset:5% 2.5%;
   box-shadow: 0 0 30px #00c8ff31;
   z-index:2;
 }
@@ -142,7 +166,6 @@
   left:26%;
   width:100%;
   height:5.5%;
-  margin: 0 auto;
   position:fixed;
   z-index: 1;
 }

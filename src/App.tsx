@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState} from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -6,7 +6,7 @@ import IT from './pages/it'
 import Music from './pages/music'
 import Art from './pages/art'
 import Contact from './pages/contact'
-import {HashRouter, Routes, Route} from "react-router-dom"
+import {BrowserRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
 import PcButton from './components/pcButton'
 import crtLines from './assets/crtLines.png'
@@ -24,7 +24,7 @@ function App() {
         <Route path ="/Contact" element ={<Contact/>}/>
       </Routes>
     </BrowserRouter>*/}
-    <HashRouter>
+    <BrowserRouter basename='/portfolio'>
           <div className="Buttons">
             <PcButton text="IT" path="/"/>
             <PcButton text="Music" path="/music"/>
@@ -37,7 +37,7 @@ function App() {
         <Route path ="/Art" element ={<Art/>}/>
         <Route path ="/Contact" element ={<Contact/>}/>
       </Routes>
-    </HashRouter>
+    </BrowserRouter>
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -60,15 +60,14 @@ function App() {
       </p>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
-    <div className="PCEffects">
+    <div className="pcEffects">
       <img className="crtLines" src={crtLines}></img>
-      <div className="blueTint">
-          <div className="screenStatic"></div>
-      </div>
+      <div className="screenStatic"></div>
+      <div className="blueTint"></div>
       <img className="pcFrame" src={pcFrame}></img>
+      <p className="name">DanTheAssassin</p>
       <div className="blueGlow"></div>
     </div>
-    <p className="name">DanTheAssassin</p>
     </>
   )
 }
