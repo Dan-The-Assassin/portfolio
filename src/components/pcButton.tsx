@@ -9,7 +9,7 @@ interface ButtonProps{
 
 function pcButton({text, path, link}: ButtonProps) {
     const navigate = useNavigate();
-  const clickReact = (path: string, reaction: string) =>
+  const clickReact = (path: string, link: string) =>
 {
   if(path != "")
   {
@@ -17,7 +17,7 @@ function pcButton({text, path, link}: ButtonProps) {
   }
   if(link != "")
   {
-    window.open("https://www.youtube.com/@DanTheAssassin");
+    window.open(link);
   }
 }
   return (
