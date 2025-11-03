@@ -1,0 +1,26 @@
+.homeMain{
+    font-family:PixelatedFont;
+    font-weight:bold;
+    font-size:1.5rem;
+}
+
+.homeMain p{
+    text-align: left;
+    font-size:2rem;
+}
+
+.FSMC{
+    background-image: url('../assets/FarmSoulsMC.gif');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: left center;
+    padding-left:12%;
+}
+
+.TBMC{
+    background-image: url('../assets/TrueBloodMC.gif');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right center;
+    padding-right:8%;
+}

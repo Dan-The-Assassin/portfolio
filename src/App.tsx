@@ -27,16 +27,16 @@ function App() {
     <BrowserRouter basename='/portfolio'>
     <div className="main">
           <div className="Buttons">
-            <PcButton text="IT" path="/" link=""/>
+            <PcButton text="Home" path="/" link=""/>
+            <PcButton text="IT" path="/it" link=""/>
             <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
             <PcButton text="Art" path="/art" link=""/>
-            <PcButton text="Contact" path="/contact" link=""/>
           </div>
       <Routes>
-        <Route path = "/" element = {<IT/>}/>
-        <Route path = "/Music" element ={<Music/>}/>
-        <Route path ="/Art" element ={<Art/>}/>
-        <Route path ="/Home" element ={<Home/>}/>
+        <Route path ="/" element ={<Home/>}/>
+        <Route path = "/it" element = {<IT/>}/>
+        <Route path = "/music" element ={<Music/>}/>
+        <Route path ="/art" element ={<Art/>}/>
       </Routes>
       <div id="testAnchor">
         <a href="https://vite.dev" target="_blank">
