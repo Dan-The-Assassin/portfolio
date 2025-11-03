@@ -1,6 +1,5 @@
 //import { useState } from 'react'
 import './home.css'
-import FSMC from '../assets/FarmSoulsMC.gif'
 
 
 function Home() {
@@ -57,6 +56,10 @@ function Home() {
         <td>FMOD</td>
       </tr>
       </table>
+      <div className="contact">
+        For work-related subjects, please contact me at: 
+        <a href="mailto:danielsandu1702@gmail.com"> danielsandu1702@gmail.com</a>
+      </div>
     </div>
   )
 }

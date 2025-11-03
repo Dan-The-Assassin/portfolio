@@ -7,6 +7,12 @@
 .homeMain p{
     text-align: left;
     font-size:2rem;
+    padding-top:2rem;
+    line-height:2.5rem;
+}
+
+.homeMain a{
+    color:rgb(202, 42, 42);
 }
 
 .FSMC{
@@ -40,4 +46,9 @@ td{
     padding-top:1em;
     padding-left:1em;
     padding-right:1em;
+}
+
+.contact{
+    padding-top: 1.5em;
+    font-size:2rem;
 }
