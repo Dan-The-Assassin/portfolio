@@ -4,13 +4,25 @@ import './pcButton.css'
 interface ButtonProps{
     text: string;
     path: string;
+    link:string;
 }
 
-function pcButton({text, path}: ButtonProps) {
+function pcButton({text, path, link}: ButtonProps) {
     const navigate = useNavigate();
+  const clickReact = (path: string, reaction: string) =>
+{
+  if(path != "")
+  {
+    navigate(path);
+  }
+  if(link != "")
+  {
+    window.open("https://www.youtube.com/@DanTheAssassin");
+  }
+}
   return (
     <>
-      <button className="buttonComponent" onClick={() => navigate(path)}>
+      <button className="buttonComponent" onClick={() => clickReact(path, link)}>
         {text}
       </button>
     </>

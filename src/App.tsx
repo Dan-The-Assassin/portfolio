@@ -5,7 +5,7 @@ import './App.css'
 import IT from './pages/it'
 import Music from './pages/music'
 import Art from './pages/art'
-import Contact from './pages/contact'
+import Home from './pages/home'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
 import PcButton from './components/pcButton'
@@ -25,20 +25,20 @@ function App() {
       </Routes>
     </BrowserRouter>*/}
     <BrowserRouter basename='/portfolio'>
+    <div className="main">
           <div className="Buttons">
-            <PcButton text="IT" path="/"/>
-            <PcButton text="Music" path="/music"/>
-            <PcButton text="Art" path="/art"/>
-            <PcButton text="Contact" path="/contact"/>
+            <PcButton text="IT" path="/" link=""/>
+            <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
+            <PcButton text="Art" path="/art" link=""/>
+            <PcButton text="Contact" path="/contact" link=""/>
           </div>
       <Routes>
         <Route path = "/" element = {<IT/>}/>
         <Route path = "/Music" element ={<Music/>}/>
         <Route path ="/Art" element ={<Art/>}/>
-        <Route path ="/Contact" element ={<Contact/>}/>
+        <Route path ="/Home" element ={<Home/>}/>
       </Routes>
-    </BrowserRouter>
-      <div>
+      <div id="testAnchor">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -60,6 +60,7 @@ function App() {
       </p>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
+      </div>
     <div className="pcEffects">
       <img className="crtLines" src={crtLines}></img>
       <div className="screenStatic"></div>
@@ -68,6 +69,7 @@ function App() {
       <p className="name">DanTheAssassin</p>
       <div className="blueGlow"></div>
     </div>
+    </BrowserRouter>
     </>
   )
 }

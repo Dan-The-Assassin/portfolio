@@ -1,0 +1,17 @@
+.icons{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+align-items: center;
+width:40rem;
+margin:auto;
+}
+
+.itMain{
+    font-family:PixelatedFont;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size:2.5rem;
+}
