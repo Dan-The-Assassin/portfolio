@@ -1,6 +1,3 @@
-import { useState} from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import IT from './pages/it'
 import Music from './pages/music'
@@ -12,7 +9,6 @@ import PcButton from './components/pcButton'
 import crtLines from './assets/crtLines.png'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
