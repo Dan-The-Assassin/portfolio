@@ -19,3 +19,28 @@ h2{
 [id]{
     scroll-margin-top: 100px;
 }
+
+.FSVideo{
+
+}
+
+.itMain p{
+    font-size:1.5rem;
+    line-height:1.5rem;
+    margin:0 auto;
+    padding-bottom:1rem;
+}
+
+.test{
+    display:inline-block;
+    width:50%;
+    font-size:1.5rem;
+}
+
+.gameTitle{
+    margin:0 auto;
+}
+
+.gameDescription{
+    text-align: justify;
+}
