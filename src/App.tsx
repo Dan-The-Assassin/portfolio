@@ -38,7 +38,8 @@ function App() {
         <Route path = "/music" element ={<Music/>}/>
         <Route path ="/art" element ={<Art/>}/>
       </Routes>
-      <div id="testAnchor">
+  </div>
+      {/*<div id="testAnchor">
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -60,7 +61,7 @@ function App() {
       </p>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
       <h1>stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff stuff</h1>
-      </div>
+      */}
     <div className="pcEffects">
       <img className="crtLines" src={crtLines}></img>
       <div className="screenStatic"></div>

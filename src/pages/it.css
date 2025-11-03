@@ -12,6 +12,10 @@ margin:auto;
     font-weight: bold;
 }
 
-.subtitle{
-    font-size:2.5rem;
+h2{
+    font-size:2.2rem;
+}
+
+[id]{
+    scroll-margin-top: 100px;
 }
