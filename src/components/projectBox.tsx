@@ -1,6 +1,5 @@
 import './projectBox.css'
-import { useRef, useState } from 'react';
-//import { useEffect } from 'react';
+import { useState } from 'react';
 
 interface ProjectProps{
     titleText: string;
