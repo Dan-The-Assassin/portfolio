@@ -14,7 +14,7 @@ interface ProjectProps{
 function projectBox({titleText, dateText, devInfo, shortDescription, depthDescription, videoLink, imagePath}: ProjectProps) {
 
     const [show, setShow] = useState(false);
-
+    console.log(titleText, dateText, devInfo, shortDescription, depthDescription);
     function checkShow()
     {
         if(show)
