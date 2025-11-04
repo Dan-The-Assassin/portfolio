@@ -21,7 +21,7 @@ function IT() {
       <PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon>
       </div>
       <h1 id="GameDev">Game Development</h1>
-      <ProjectBox titleText="FarmSouls" dateText="05/2025 - 26/06/2025" devInfo= "Developed for PC in Godot using C#. Art made with Aseprite."
+      {/*<ProjectBox titleText="FarmSouls" dateText="05/2025 - 26/06/2025" devInfo= "Developed for PC in Godot using C#. Art made with Aseprite."
       shortDescription="A 2D pixel art topdown game made for my master's degree thesis project, a farming sim with a unique twist that blends combat and farming together"
       depthDescription="The player is tasked with taking care of a farm, where the plants turn into enemies at the time of harvest. The game presents various manually coded 
       interconnected systems, such as: menus with settings for video/audio/controls, day-night cycle, seasons, various item types you can pick or drop such as: tools, seeds, 
@@ -36,7 +36,7 @@ function IT() {
       depthDescription="This project aims to help the recovery process of patients with neuromotor impairments following strokes, traumas or brain surgery, by offering a means to 
       exercise in a customizable virtual environment. The player can manipulate the boat's oars using a customizable rowing motion, being tasked with getting to a finish line and
       colliding with collectibles along the way. The game offers plenty of settings: the boat's speed, the width of the rowing motion, the player position, the oars' sensitivity to 
-      hand movement etc." videoLink="https://www.youtube.com/embed/ry7KRNBON04?si=OhhW1TEjresR_9SK" imagePath=""></ProjectBox>
+      hand movement etc." videoLink="https://www.youtube.com/embed/ry7KRNBON04?si=OhhW1TEjresR_9SK" imagePath=""></ProjectBox>*/}
       <h2>VR Boat Game</h2>
       <p>[ 18/01/2025 – 15/04/2025 ]</p>
       <p className="gameDescription">A VR game that simulates boat rowing, made for Politehnica University of Bucharest's
