@@ -24,15 +24,15 @@ function App() {
     <div className="main">
           <div className="Buttons">
             <PcButton text="Home" path="/" link=""/>
-            <PcButton text="IT" path="/it" link=""/>
+            <PcButton text="IT" path="/it/" link=""/>
             <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
-            <PcButton text="Art" path="/art" link=""/>
+            <PcButton text="Art" path="/art/" link=""/>
           </div>
       <Routes>
         <Route path ="/" element ={<Home/>}/>
-        <Route path = "/it" element = {<IT/>}/>
-        <Route path = "/music" element ={<Music/>}/>
-        <Route path ="/art" element ={<Art/>}/>
+        <Route path = "/it/" element = {<IT/>}/>
+        <Route path = "/music/" element ={<Music/>}/>
+        <Route path ="/art/" element ={<Art/>}/>
       </Routes>
   </div>
       {/*<div id="testAnchor">
