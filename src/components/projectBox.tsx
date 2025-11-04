@@ -57,4 +57,4 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
   )
 }
 
-export default projectBox
+export default projectBox;
