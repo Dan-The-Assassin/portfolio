@@ -27,13 +27,13 @@ function Home() {
       </tr>
       <tr>
         <td>C#</td>
-        <td>Godot</td>
-        <td>FL Studio</td>
+        <td>Unity</td>
+        <td>GitHub</td>
       </tr>
       <tr>
         <td>C++</td>
-        <td>Unity</td>
-        <td>Clip Studio Paint</td>
+        <td>Godot</td>
+        <td>Blender</td>
       </tr>
       <tr>
         <td>JavaScript/TypeScript</td>
@@ -43,17 +43,17 @@ function Home() {
       <tr>
         <td>HTML</td>
         <td>OpenGL</td>
-        <td>Blender</td>
+        <td>Clip Studio Paint</td>
       </tr>
       <tr>
         <td>CSS/SCSS</td>
         <td>React</td>
-        <td>GitHub</td>
+        <td>FMOD</td>
       </tr>
       <tr>
         <td></td>
         <td>Angular</td>
-        <td>FMOD</td>
+        <td>FL Studio</td>
       </tr>
       </table>
       <div className="contact">
