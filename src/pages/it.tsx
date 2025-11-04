@@ -4,6 +4,7 @@ import GraphicsIcon from '../assets/GraphicsIcon.png'
 import WebDevIcon from '../assets/WebDevIcon.png'
 import DatabaseIcon from '../assets/DatabaseIcon.png'
 import PcIcon from '../components/pcIcon'
+import ProjectBox from '../components/projectBox'
 
 function IT() {
   //const [count, setCount] = useState(0)
@@ -20,6 +21,8 @@ function IT() {
       <PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon>
       </div>
       <h1 id="GameDev">Game Development</h1>
+      <ProjectBox></ProjectBox>
+      {/*
       <h2 className="gameTitle">FarmSouls (Thesis Project)</h2>
       <p>[ 05/2025 – 26/06/2025 ]</p>
       <iframe className="FSVideo" width="560" height="315" src="https://www.youtube.com/embed/4XTroj3vDvk?si=nmOATANfyq1MO0WV" title="YouTube video player" allow="accelerometer; autoplay; 
@@ -87,7 +90,7 @@ while.</p>
       <h2>Forum-type site</h2>
       <h2>Events-type site</h2>
       <h1 id="Databases">Databases</h1>
-      <h2>BirdLife/SOR Database Work</h2>
+      <h2>BirdLife/SOR Database Work</h2>*/}
       </div>
     </>
   )

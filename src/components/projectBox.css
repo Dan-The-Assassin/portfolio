@@ -1,0 +1,42 @@
+.boxMain{
+    background-color: rgb(196, 196, 196);
+    outline:0.2em solid black;
+    margin: 0 auto;
+    width:80%;
+    cursor: pointer;
+}
+
+.boxMain h2{
+    font-size:2rem;
+    margin-bottom: 0;
+}
+
+.boxMain h3{
+    margin-top: 0;
+}
+
+.boxMain:hover{
+    background-color: rgb(175, 175, 175);
+}
+
+.projectMedia{
+}
+
+.shortText{
+font-size:1.5rem;
+margin: 0 10%;
+text-align: justify;
+}
+
+.arrowExtend{
+font-size:1.5rem;
+margin-bottom: 0;
+}
+
+.fullDescription{
+font-size:1.5rem;
+margin: 0 5%;
+text-align: justify;
+display: none;
+overflow: hidden;
+}

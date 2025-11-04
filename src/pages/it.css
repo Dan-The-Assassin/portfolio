@@ -11,10 +11,10 @@ margin:auto;
     font-family:PixelatedFont;
     font-weight: bold;
 }
-
+/*
 h2{
     font-size:2.2rem;
-}
+}*/
 
 [id]{
     scroll-margin-top: 100px;
@@ -23,19 +23,13 @@ h2{
 .FSVideo{
 
 }
-
+/*
 .itMain p{
     font-size:1.5rem;
     line-height:1.5rem;
     margin:0 auto;
     padding-bottom:1rem;
-}
-
-.test{
-    display:inline-block;
-    width:50%;
-    font-size:1.5rem;
-}
+}*/
 
 .gameTitle{
     margin:0 auto;
