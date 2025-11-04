@@ -41,7 +41,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
 
     return (
       <div className="boxMain" onClick={() => {setShow(!show);}}>
-            <h2>{titleText}</h2>
+           {/*<h2>{titleText}</h2>
             <h3>[{dateText}]<br/>
             {devInfo}
             </h3>
@@ -52,9 +52,9 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
             <p className="arrowExtend" id="arrow">{checkShow()}</p>
             {show && <div className="fullDescription"> 
                 {depthDescription}
-            </div>}
+            </div>}*/}
       </div>
   )
 }
 
-export default projectBox;
+export default projectBox
