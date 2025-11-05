@@ -67,6 +67,8 @@ function App() {
       <div className="blueGlow"></div>
     </div>
     </BrowserRouter>
+    {/*please don't forget that you copy pasted that weird script into index.html and also copy pasted that 404.html file to fix the issue where refreshing the site when on a page
+    different than the base one lead to a 404. I don't know how they solve it, but they do, so keep them*/}
     </>
   )
 }
