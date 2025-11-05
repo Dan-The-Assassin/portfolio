@@ -7,11 +7,12 @@ interface ProjectProps{
     devInfo: string;
     shortDescription: string;
     depthDescription: string;
+    depthDescription2: string;
     videoLink: string;
     imagePath: string;
 }
 
-function projectBox({titleText, dateText, devInfo, shortDescription, depthDescription, videoLink, imagePath}: ProjectProps) {
+function projectBox({titleText, dateText, devInfo, shortDescription, depthDescription, depthDescription2, videoLink, imagePath}: ProjectProps) {
 
     const [show, setShow] = useState(false);
     function checkShow()
@@ -50,7 +51,8 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
             <p className="shortText">{shortDescription}</p>
             <p className="arrowExtend" id="arrow">{checkShow()}</p>
             {show && <div className="fullDescription"> 
-                {depthDescription}
+                <p>{depthDescription}</p>
+                <p>{depthDescription2}</p>
             </div>}
       </div>
   )
