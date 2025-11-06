@@ -28,7 +28,7 @@ function Home() {
       <tr>
         <td>C#</td>
         <td>Unity</td>
-        <td>GitHub</td>
+        <td>Git</td>
       </tr>
       <tr>
         <td>C++</td>
