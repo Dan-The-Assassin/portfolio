@@ -1,12 +1,9 @@
 .buttonComponent{
-  margin:auto;
-  height:100%;
-  width:10%;
+  margin:0 auto;
+  /*height:100%;
+  width:10%;*/
   background: url(../assets/PCBtn.png) ;
-  background-position: center;
-  background-repeat:no-repeat;
   background-size: 100% 100%;
-  background-color: transparent;
   font-family:serif;
   /*font-family: PixelatedFont;
   font-weight: bold;*/
@@ -14,18 +11,39 @@
   color:#b6b6ca;
   text-align: center;
   line-height: 5%;
-  padding: 0px;
-  display:inline-block;
+  /*padding: 1.5rem 3rem;*/
+  height:100%;
+  width:10%;
+  padding:0;
   border: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.buttonComponent{
+    margin:0 auto;
+  /*height:100%;
+  width:10%;*/
+  background: url(../assets/PCBtn.png) ;
+  background-size: 100% 100%;
+  font-family:serif;
+  /*font-family: PixelatedFont;
+  font-weight: bold;*/
+  font-size:1.5rem;
+  color:#b6b6ca;
+  text-align: center;
+  line-height: 5%;
+  /*padding: 1.5rem 3rem;*/
+  height:100%;
+  width:50%;
+  border: 0;
+}
 }
 
 .buttonComponent:focus{
   outline: none;
   background: url(../assets/PCBtnPressed.png) ;
-  background-position: center;
-  background-repeat:no-repeat;
   background-size: 100% 100%;
-  background-color: transparent;
   color:#8a8a97;
 }
 
