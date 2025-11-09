@@ -40,7 +40,7 @@ function Home() {
         with me? Please check the page of what you're interested in first for more information!
       </p>
       <table className="skillsGrid">
-        <tr>
+        <tr className="PCTr">
         <th>Languages</th>
         <td><img src={cSharp} title="C#"></img></td>
         <td><img src={cPlus} title="C++"></img></td>
@@ -50,7 +50,7 @@ function Home() {
         <td><img src={cssIcon} title="CSS"></img></td>
         <td><img src={scssIcon} title="SCSS"></img></td>
       </tr>
-      <tr>
+      <tr className="PCTr">
         <th>Engines/Frameworks</th>
         <td><img src={unityIcon} title="Unity"></img></td>
         <td><img src={godotIcon} title="Godot"></img></td>
@@ -59,7 +59,7 @@ function Home() {
         <td><img src={reactIcon} title="React"></img></td>
         <td><img src={angularIcon} title="Angular"></img></td>
       </tr>
-      <tr>
+      <tr className="PCTr">
         <th>Tools</th>
         <td><img src={gitIcon} title="Git/GitHub"></img></td>
         <td><img src={blenderIcon} title="Blender"></img></td>
@@ -69,41 +69,46 @@ function Home() {
         <td><img src={flIcon} title="Fl Studio"></img></td>
         <td><img src={cspIcon} title="Clip Studio"></img></td>
       </tr>
-      {/* <tr>
+      <tr className="MobileTr">
         <th>Languages</th>
         <th>Engines/Frameworks</th>
         <th>Tools</th>
       </tr>
-      <tr>
+      <tr className="MobileTr">
         <td>C#</td>
         <td>Unity</td>
         <td>Git</td>
       </tr>
-      <tr>
+      <tr className="MobileTr">
         <td>C++</td>
         <td>Godot</td>
         <td>Blender</td>
       </tr>
-      <tr>
-        <td>JavaScript/TypeScript</td>
+      <tr className="MobileTr">
+        <td>TypeScript</td>
         <td>GameMaker Studio 2</td>
-        <td>Photoshop/AfterEffects</td>
+        <td>Photoshop</td>
       </tr>
-      <tr>
-        <td>HTML</td>
+      <tr className="MobileTr">
+        <td>JavaScript</td>
         <td>OpenGL</td>
-        <td>Clip Studio Paint</td>
+        <td>After Effects</td>
       </tr>
-      <tr>
-        <td>CSS/SCSS</td>
+      <tr className="MobileTr">
+        <td>HTML</td>
         <td>React</td>
         <td>FMOD</td>
       </tr>
-      <tr>
-        <td></td>
+      <tr className="MobileTr">
+        <td>CSS</td>
         <td>Angular</td>
+        <td>Clip Studio Paint</td>
+      </tr>
+      <tr className="MobileTr">
+        <td>SCSS</td>
+        <td></td>
         <td>FL Studio</td>
-      </tr>*/}
+      </tr>
       </table>
       <div className="contact">
         For work-related subjects, please contact me at: 
