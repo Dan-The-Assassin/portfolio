@@ -66,4 +66,5 @@ td{
 
 .skillsGrid img{
     width:80%;
+    min-width: 50px;
 }
