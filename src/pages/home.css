@@ -2,6 +2,7 @@
     font-family:PixelatedFont;
     font-weight:bold;
     font-size:1.5rem;
+    color-scheme: light dark;
 }
 
 .homeMain p{
@@ -32,23 +33,37 @@
 }
 
 .skillsGrid{
-    table-layout: fixed;
     margin:0 auto;
     padding-top:5%;
 }
 
 th{
-    border-bottom: 1px solid black;
+    /*border-bottom: 1px solid black;*/
+    /*border-right: 1px solid black;*/
     color:rgb(202, 42, 42);
 }
 
+@media (prefers-color-scheme: dark)
+{
+    th{
+        color:rgb(255, 96, 96);
+    }
+    .homeMain a{
+        color:rgb(255, 96, 96);
+    }
+}
+
 td{
-    padding-top:0em;
+    padding-top:1em;
+    padding-bottom: 1em;
     padding-left:1em;
-    padding-right:1em;
 }
 
 .contact{
     padding-top: 1.5em;
     font-size:2rem;
+}
+
+.skillsGrid img{
+    width:80%;
 }

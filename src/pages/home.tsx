@@ -1,5 +1,25 @@
 //import { useState } from 'react'
 import './home.css'
+import cSharp from '../assets/CSharpIcon.png'
+import cPlus from '../assets/CPlusIcon.png'
+import jsIcon from '../assets/JSIcon.png'
+import tsIcon from '../assets/TSIcon.png'
+import htmlIcon from '../assets/HTMLIcon.png'
+import cssIcon from '../assets/cssIcon.png'
+import scssIcon from '../assets/scssIcon.png'
+import unityIcon from '../assets/UnityIcon.png'
+import godotIcon from '../assets/GodotIcon.png'
+import gms2Icon from '../assets/GMS2Icon.png'
+import glIcon from '../assets/OpenGLIcon.png'
+import reactIcon from '../assets/ReactIcon.png'
+import angularIcon from '../assets/AngularIcon.png'
+import gitIcon from '../assets/GitHubIcon.png'
+import blenderIcon from '../assets/BlenderIcon.png'
+import psIcon from '../assets/PhotoshopIcon.png'
+import aeIcon from '../assets/AfterEffectsIcon.png'
+import cspIcon from '../assets/CSPIcon.png'
+import fmodicon from '../assets/FmodIcon.png'
+import flIcon from '../assets/FLStudioIcon.png'
 
 
 function Home() {
@@ -20,7 +40,36 @@ function Home() {
         with me? Please check the page of what you're interested in first for more information!
       </p>
       <table className="skillsGrid">
+        <tr>
+        <th>Languages</th>
+        <td><img src={cSharp} title="C#"></img></td>
+        <td><img src={cPlus} title="C++"></img></td>
+        <td><img src={tsIcon} title="TypeScript"></img></td>
+        <td><img src={jsIcon} title="JavaScript"></img></td>
+        <td><img src={htmlIcon} title="HTML"></img></td>
+        <td><img src={cssIcon} title="CSS"></img></td>
+        <td><img src={scssIcon} title="SCSS"></img></td>
+      </tr>
       <tr>
+        <th>Engines/Frameworks</th>
+        <td><img src={unityIcon} title="Unity"></img></td>
+        <td><img src={godotIcon} title="Godot"></img></td>
+        <td><img src={gms2Icon} title="Gamemaker Studio 2"></img></td>
+        <td><img src={glIcon} title="OpenGL"></img></td>
+        <td><img src={reactIcon} title="React"></img></td>
+        <td><img src={angularIcon} title="Angular"></img></td>
+      </tr>
+      <tr>
+        <th>Tools</th>
+        <td><img src={gitIcon} title="Git/GitHub"></img></td>
+        <td><img src={blenderIcon} title="Blender"></img></td>
+        <td><img src={psIcon} title="Photoshop"></img></td>
+        <td><img src={aeIcon} title="After Effects"></img></td>
+        <td><img src={fmodicon} title="FMOD"></img></td>
+        <td><img src={flIcon} title="Fl Studio"></img></td>
+        <td><img src={cspIcon} title="Clip Studio"></img></td>
+      </tr>
+      {/* <tr>
         <th>Languages</th>
         <th>Engines/Frameworks</th>
         <th>Tools</th>
@@ -54,7 +103,7 @@ function Home() {
         <td></td>
         <td>Angular</td>
         <td>FL Studio</td>
-      </tr>
+      </tr>*/}
       </table>
       <div className="contact">
         For work-related subjects, please contact me at: 
