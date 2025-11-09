@@ -71,7 +71,7 @@ function Home() {
       </tr>
       <tr className="MobileTr">
         <th>Languages</th>
-        <th>Engines/Frameworks</th>
+        <th>Engines and Frameworks</th>
         <th>Tools</th>
       </tr>
       <tr className="MobileTr">
@@ -86,13 +86,13 @@ function Home() {
       </tr>
       <tr className="MobileTr">
         <td>TypeScript</td>
-        <td>GameMaker Studio 2</td>
+        <td>GameMakerStudio</td>
         <td>Photoshop</td>
       </tr>
       <tr className="MobileTr">
         <td>JavaScript</td>
         <td>OpenGL</td>
-        <td>After Effects</td>
+        <td>AfterEffects</td>
       </tr>
       <tr className="MobileTr">
         <td>HTML</td>
