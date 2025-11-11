@@ -17,19 +17,19 @@
 }
 
 .FSMC{
-    background-image: url('../assets/FarmSoulsMC.gif');
+   /* background-image: url('../assets/FarmSoulsMC.gif');
     background-repeat: no-repeat;
     background-size: 10rem;
     background-position: left center;
-    padding-left:12rem;
+    padding-left:12rem;*/
 }
 
 .TBMC{
-    background-image: url('../assets/TrueBloodMC.gif');
+   /* background-image: url('../assets/TrueBloodMC.gif');
     background-repeat: no-repeat;
     background-size: 9rem;
     background-position: right center;
-    padding-right:8rem;
+    padding-right:8rem;*/
 }
 
 .skillsGrid{
