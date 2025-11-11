@@ -5,7 +5,7 @@ import Art from './pages/art'
 import Home from './pages/home'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
-import PcButton from './components/pcButton'
+/*import PcButton from './components/pcButton'*/
 import crtLines from './assets/crtLines.png'
 
 function App() {
