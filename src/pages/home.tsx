@@ -112,10 +112,10 @@ function Home() {
         <td>FL Studio</td>
       </tr>
       </table>*/}
-      <div className="contact">
+      {/*<div className="contact">
         For work-related subjects, please contact me at: 
         <a href="mailto:danielsandu1702@gmail.com"> danielsandu1702@gmail.com</a>
-      </div>
+      </div>*/}
     </div>
   )
 }
