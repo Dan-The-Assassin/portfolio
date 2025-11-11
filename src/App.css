@@ -159,4 +159,18 @@
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   }
+
+  .pcEffects{
+  position:fixed;
+  top:0px;
+  left:0px;
+  height:100dvh;
+  width:100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+  pointer-events: none;
+}
 }
