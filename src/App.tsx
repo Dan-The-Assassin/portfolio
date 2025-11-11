@@ -23,12 +23,12 @@ function App() {
     </BrowserRouter>*/}
     <BrowserRouter basename='/portfolio'>
     <div className="main">
-          <div className="Buttons">
+        {/*  <div className="Buttons">
             <PcButton text="Home" path="/" link=""/>
             <PcButton text="IT" path="/it" link=""/>
             <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
             <PcButton text="Art" path="" link="https://cara.app/dantheassassin"/>
-          </div>
+          </div>*/}
       <Routes>
         <Route path ="/" element ={<Home/>}/>
         <Route path = "/it" element = {<IT/>}/>
