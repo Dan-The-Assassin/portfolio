@@ -3,7 +3,6 @@
     font-weight:bold;
     font-size:1.5rem;
     color-scheme: light dark;
-    width:100%;
 }
 
 .homeMain p{
@@ -88,5 +87,19 @@ td{
 
     .MobileTr{
         display: table-row;
+    }
+
+    .homeMain{
+        font-family:PixelatedFont;
+        font-weight:bold;
+        font-size:0.5rem;
+        color-scheme: light dark;
+    }
+
+    .homeMain p{
+        text-align: left;
+        font-size:1rem;
+        padding-top:1rem;
+        line-height:1.5rem;
     }
 }
