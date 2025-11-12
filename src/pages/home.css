@@ -15,7 +15,7 @@
 .homeMain a{
     color:rgb(202, 42, 42);
 }
-
+/*
 .FSMC{
     background-image: url('../assets/FarmSoulsMC.gif');
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     background-position: right center;
     padding-right:8rem;
 }
-
+*/
 .skillsGrid{
     margin:0 auto;
     padding-top:5%;
