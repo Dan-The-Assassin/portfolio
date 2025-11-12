@@ -114,7 +114,7 @@ td{
     background-repeat: no-repeat;
     background-size: 7rem;
     background-position: top center;
-    padding-top:8rem;
+    padding-top:7rem;
     padding-left:0;
     }
 
@@ -123,8 +123,12 @@ td{
         background-repeat: no-repeat;
         background-size: 6rem;
         background-position: top center;
-        padding-top:8rem;
+        padding-top:7rem;
         padding-right: 0;
+    }
+
+    .skillsGrid{
+        font-size: 1rem;
     }
 
     h1{
