@@ -157,8 +157,8 @@
   position:fixed;
   top:0lvh;
   left:0px;
-  height:100lvh;
-  width:100lvw;
+  height:100dvh;
+  width:100dvw;
   margin: 0 auto;
   display: flex;
   justify-content:center;
@@ -166,6 +166,13 @@
   text-align: center;
   pointer-events: none;
   }
+
+  .pcFrame{
+  position:absolute;
+  height:100dvh;
+  width:100dvh;
+  pointer-events: none;
+}
 
   .main{
     padding:15% 8%;
