@@ -166,18 +166,16 @@
   text-align: center;
   pointer-events: none;
   }
-/*
+
   .pcFrame{
   position:absolute;
   height:100dvh;
   width:100dvw;
   pointer-events: none;
-}*/
+}
 
   .main{
     padding:15% 8%;
-      overflow-x: hidden;
-  overflow-y: scroll;
   }
 
   #root {
