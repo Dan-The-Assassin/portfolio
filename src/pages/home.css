@@ -102,4 +102,10 @@ td{
         padding-top:1rem;
         line-height:1.5rem;
     }
+
+    .contact{
+    padding-top: 0.5em;
+    font-size:1rem;
+    width:100%;
+}
 }
