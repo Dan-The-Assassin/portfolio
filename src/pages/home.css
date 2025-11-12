@@ -107,5 +107,21 @@ td{
     padding-top: 0.5em;
     font-size:1rem;
     width:100%;
-}
+    }
+
+    .FSMC{
+    background-image: url('../assets/FarmSoulsMC.gif');
+    background-repeat: no-repeat;
+    background-size: 9rem;
+    background-position: bottom center;
+    padding-bottom:12rem;
+    }
+
+    .TBMC{
+        background-image: url('../assets/TrueBloodMC.gif');
+        background-repeat: no-repeat;
+        background-size: 8rem;
+        background-position: bottom center;
+        padding-bottom:8rem;
+    }
 }
