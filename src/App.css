@@ -188,6 +188,8 @@
 
   .main{
     padding:15% 8%;
+      overflow-x: hidden;
+  overflow-y: scroll;
   }
 
   #root {
