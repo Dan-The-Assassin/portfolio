@@ -4,7 +4,7 @@ import Music from './pages/music'
 import Art from './pages/art'
 import Home from './pages/home'
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-/*import pcFrame from "./assets/site_frame.png"*/
+import pcFrame from "./assets/site_frame.png"
 import PcButton from './components/pcButton'
 import crtLines from './assets/crtLines.png'
 
@@ -63,8 +63,7 @@ function App() {
       <img className="crtLines" src={crtLines}></img>
       <div className="screenStatic"></div>
       <div className="blueTint"></div>
-      {/*<img className="pcFrame" src={pcFrame}></img>*/}
-      <div className="pcFrame"></div>
+      <img className="pcFrame" src={pcFrame}></img>
       <p className="name">DanTheAssassin</p>
       <div className="blueGlow"></div>
     </div>
