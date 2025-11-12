@@ -113,8 +113,8 @@ td{
     background-image: url('../assets/FarmSoulsMC.gif');
     background-repeat: no-repeat;
     background-size: 7rem;
-    background-position: bottom center;
-    padding-bottom:12rem;
+    background-position: top center;
+    padding-top:12rem;
     padding-left:0;
     }
 
@@ -122,8 +122,8 @@ td{
         background-image: url('../assets/TrueBloodMC.gif');
         background-repeat: no-repeat;
         background-size: 6rem;
-        background-position: bottom center;
-        padding-bottom:8rem;
+        background-position: top center;
+        padding-top:8rem;
         padding-right: 0;
     }
 }
