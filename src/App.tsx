@@ -63,7 +63,8 @@ function App() {
       <img className="crtLines" src={crtLines}></img>
       <div className="screenStatic"></div>
       <div className="blueTint"></div>
-      <img className="pcFrame" src={pcFrame}></img>
+      {/*<img className="pcFrame" src={pcFrame}></img>*/}
+      <div className="pcFrame"></div>
       <p className="name">DanTheAssassin</p>
       <div className="blueGlow"></div>
     </div>
