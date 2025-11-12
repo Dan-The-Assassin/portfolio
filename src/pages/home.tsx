@@ -1,6 +1,5 @@
 //import { useState } from 'react'
 import './home.css'
-/*
 import cSharp from '../assets/CSharpIcon.png'
 import cPlus from '../assets/CPlusIcon.png'
 import jsIcon from '../assets/JSIcon.png'
@@ -20,7 +19,7 @@ import psIcon from '../assets/PhotoshopIcon.png'
 import aeIcon from '../assets/AfterEffectsIcon.png'
 import cspIcon from '../assets/CSPIcon.png'
 import fmodicon from '../assets/FmodIcon.png'
-import flIcon from '../assets/FLStudioIcon.png'*/
+import flIcon from '../assets/FLStudioIcon.png'
 
 
 function Home() {
@@ -40,7 +39,7 @@ function Home() {
         Below you'll find a list of programming languages, tools, frameworks and engines that I'm knowledgeable about, as well as how to contact me. Interested in working
         with me? Please check the page of what you're interested in first for more information!
       </p>
-      {/*
+      
       <table className="skillsGrid">
         <tr className="PCTr">
         <th>Languages</th>
@@ -111,7 +110,7 @@ function Home() {
         <td></td>
         <td>FL Studio</td>
       </tr>
-      </table>*/}
+      </table>
       {<div className="contact">
         For work-related subjects, please contact me at: 
         <a href="mailto:danielsandu1702@gmail.com"> danielsandu1702@gmail.com</a>
