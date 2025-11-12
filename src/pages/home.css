@@ -15,7 +15,7 @@
 .homeMain a{
     color:rgb(202, 42, 42);
 }
-/*
+
 .FSMC{
     background-image: url('../assets/FarmSoulsMC.gif');
     background-repeat: no-repeat;
@@ -31,7 +31,7 @@
     background-position: right center;
     padding-right:8rem;
 }
-*/
+
 .skillsGrid{
     margin:0 auto;
     padding-top:5%;
@@ -112,18 +112,18 @@ td{
     .FSMC{
     background-image: url('../assets/FarmSoulsMC.gif');
     background-repeat: no-repeat;
-    background-size: 9rem;
-    background-position: bottom center;
-    padding-bottom:12rem;
+    background-size: 7rem;
+    background-position: top center;
+    padding-top:12rem;
     padding-left:0;
     }
 
     .TBMC{
         background-image: url('../assets/TrueBloodMC.gif');
         background-repeat: no-repeat;
-        background-size: 8rem;
-        background-position: bottom center;
-        padding-bottom:8rem;
+        background-size: 6rem;
+        background-position: top center;
+        padding-top:8rem;
         padding-right: 0;
     }
 }
