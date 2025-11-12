@@ -115,6 +115,7 @@ td{
     background-size: 9rem;
     background-position: bottom center;
     padding-bottom:12rem;
+    padding-left:0;
     }
 
     .TBMC{
@@ -123,5 +124,6 @@ td{
         background-size: 8rem;
         background-position: bottom center;
         padding-bottom:8rem;
+        padding-right: 0;
     }
 }
