@@ -18,14 +18,10 @@
 }
 
 @media only screen and (max-width: 960px) {
-    .anchorImage{
-    width:80%;
-    height:80%;
-}
 
 .anchorText{
     font-family: PixelatedFont;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     color:white;
     -webkit-text-stroke: 5px black;
     paint-order: stroke fill;

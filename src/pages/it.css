@@ -19,10 +19,10 @@ margin:auto;
 @media only screen and (max-width: 960px) {
 .icons{
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 18rem 18rem;
 justify-content: center;
 align-items: center;
-margin:auto;
-width:0rem;
+margin:0 auto;
+width:5rem;
 }
 }
