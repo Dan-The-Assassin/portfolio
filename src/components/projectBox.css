@@ -20,6 +20,8 @@
 }
 
 .projectMedia{
+    width:80%;
+    margin: 0 auto;
 }
 
 .shortText{
@@ -54,5 +56,17 @@
     .boxMain:hover
     {
         background-color: rgb(82, 78, 78);
+    }
+}
+
+.projectMedia iframe{
+    width:80%;
+    height:315px;
+}
+
+@media only screen and (max-width: 960px) {
+    .projectMedia iframe{
+        width:80%;
+        height:180px;
     }
 }
