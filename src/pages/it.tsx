@@ -1,9 +1,10 @@
 import './it.css'
+/*
 import GameIcon from '../assets/GameIcon.png'
 import GraphicsIcon from '../assets/GraphicsIcon.png'
 import WebDevIcon from '../assets/WebDevIcon.png'
 import DatabaseIcon from '../assets/DatabaseIcon.png'
-import PcIcon from '../components/pcIcon'
+import PcIcon from '../components/pcIcon'*/
 import ProjectBox from '../components/projectBox'
 import beatDungeon from '../assets/BeatDungeon.png'
 import GraphicsProj from '../assets/GraphicsProject.png'
