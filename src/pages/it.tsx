@@ -1,10 +1,9 @@
 import './it.css'
-/*
 import GameIcon from '../assets/GameIcon.png'
 import GraphicsIcon from '../assets/GraphicsIcon.png'
 import WebDevIcon from '../assets/WebDevIcon.png'
 import DatabaseIcon from '../assets/DatabaseIcon.png'
-import PcIcon from '../components/pcIcon'*/
+import PcIcon from '../components/pcIcon'
 import ProjectBox from '../components/projectBox'
 import beatDungeon from '../assets/BeatDungeon.png'
 import GraphicsProj from '../assets/GraphicsProject.png'
@@ -24,7 +23,6 @@ function IT() {
       <PcIcon anchorPath='#WebDev' image={WebDevIcon} text="WebDev"></PcIcon>
       <PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon>
       </div>*/}
-      {/*
       <table className="icons">
         <tr>
           <td><PcIcon anchorPath='#GameDev' image={GameIcon} text="GameDev"></PcIcon></td>
@@ -34,7 +32,7 @@ function IT() {
           <td><PcIcon anchorPath='#WebDev' image={WebDevIcon} text="WebDev"></PcIcon></td>
           <td><PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon></td>
         </tr>
-      </table>*/}
+      </table>
       <h1 id="GameDev">Game Development</h1>
       <ProjectBox titleText="FarmSouls" dateText="05/2025 - 26/06/2025" devInfo= "Developed for PC in Godot using C#."
       shortDescription="A 2D pixel art topdown game made for my master's degree thesis project, a farming sim with a unique twist that blends combat and farming together."
