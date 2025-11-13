@@ -16,12 +16,23 @@ function IT() {
     <div className="itMain">
       <h1>IT Projects</h1>
       <h2>Sections</h2>
-      <div className="icons">
+              {/*<div className="icons">
+
       <PcIcon anchorPath='#GameDev' image={GameIcon} text="GameDev"></PcIcon>
       <PcIcon anchorPath='#Graphics' image={GraphicsIcon} text="Graphics"></PcIcon>
       <PcIcon anchorPath='#WebDev' image={WebDevIcon} text="WebDev"></PcIcon>
       <PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon>
-      </div>
+      </div>*/}
+      <table className="icons">
+        <tr>
+          <td><PcIcon anchorPath='#GameDev' image={GameIcon} text="GameDev"></PcIcon></td>
+          <td><PcIcon anchorPath='#Graphics' image={GraphicsIcon} text="Graphics"></PcIcon></td>
+        </tr>
+        <tr>
+          <td><PcIcon anchorPath='#WebDev' image={WebDevIcon} text="WebDev"></PcIcon></td>
+          <td><PcIcon anchorPath='#Databases' image={DatabaseIcon} text="Databases"></PcIcon></td>
+        </tr>
+      </table>
       <h1 id="GameDev">Game Development</h1>
       <ProjectBox titleText="FarmSouls" dateText="05/2025 - 26/06/2025" devInfo= "Developed for PC in Godot using C#."
       shortDescription="A 2D pixel art topdown game made for my master's degree thesis project, a farming sim with a unique twist that blends combat and farming together."

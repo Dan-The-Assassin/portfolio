@@ -1,10 +1,16 @@
 .icons{
-display: grid;
+/*display: grid;
 grid-template-columns: 1fr 1fr;
 justify-content: center;
 align-items: center;
 width:40rem;
-margin:auto;
+margin:auto;*/
+margin:0 auto;
+padding-bottom:5rem;
+}
+
+.icons td{
+    padding: 2rem 3rem;
 }
 
 .itMain{
@@ -17,12 +23,4 @@ margin:auto;
 }
 
 @media only screen and (max-width: 960px) {
-.icons{
-display: grid;
-grid-template-columns: 18rem 18rem;
-justify-content: center;
-align-items: center;
-margin:0 auto;
-width:5rem;
-}
 }
