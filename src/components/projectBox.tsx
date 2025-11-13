@@ -35,7 +35,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
         }
         if(imagePath!="")
         {
-            return(<img width="560" height="315" src={imagePath}></img>)
+            return(<img src={imagePath}></img>)
         }
     }
 

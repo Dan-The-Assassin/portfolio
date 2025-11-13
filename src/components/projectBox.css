@@ -64,6 +64,11 @@
     height:315px;
 }
 
+.projectMedia img{
+    width:80%;
+    height:45%;
+}
+
 @media only screen and (max-width: 960px) {
     .projectMedia iframe{
         width:80%;
