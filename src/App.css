@@ -151,6 +151,7 @@
   bottom:-0.2%;
   display:grid;
   grid-template-columns: repeat(4, 1fr);
+  background-color: #141419;
   }
 
   .pcEffects{
@@ -169,19 +170,13 @@
 
   .pcFrame{
   position:absolute;
-  height:100lvh;
+  height:100%;
   width:100%;
   pointer-events: none;
+  content:url("./assets/site_frame_mobile.png");
 }
 
   .main{
     padding:15% 8%;
-  }
-
-  #root {
-  height:100lvh;
-  width:100lvw;
-  margin: 0 auto;
-  text-align: center;
   }
 }
