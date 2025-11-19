@@ -27,7 +27,7 @@ function App() {
             <PcButton text="Home" path="/" link=""/>
             <PcButton text="IT" path="/it" link=""/>
             <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
-            <PcButton text="Art" path="" link="https://cara.app/dantheassassin"/>
+            <PcButton text="Art" path="" link="https://www.artstation.com/dantheassassin"/>
           </div>
       <Routes>
         <Route path ="/" element ={<Home/>}/>
