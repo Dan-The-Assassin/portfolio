@@ -7,8 +7,11 @@ import {BrowserRouter, Routes, Route} from "react-router-dom"
 import pcFrame from "./assets/site_frame.png"
 import PcButton from './components/pcButton'
 import crtLines from './assets/crtLines.png'
+import ScrollToTop from './components/scrollToTop'
 
 function App() {
+
+  window.scroll
 
   return (
     <>
@@ -22,6 +25,7 @@ function App() {
       </Routes>
     </BrowserRouter>*/}
     <BrowserRouter basename='/portfolio'>
+    <ScrollToTop/>
     <div className="main">
           <div className="Buttons">
             <PcButton text="Home" path="/" link=""/>
