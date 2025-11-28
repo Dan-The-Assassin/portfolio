@@ -110,7 +110,7 @@ td{
     }
 
     .FSMC{
-    background-image: url('../assets/FarmSoulsMC.gif');
+    background-image: url('../assets/FarmSoulsMC.webp');
     background-repeat: no-repeat;
     background-size: 7rem;
     background-position: top center;
@@ -119,7 +119,7 @@ td{
     }
 
     .TBMC{
-        background-image: url('../assets/TrueBloodMC.gif');
+        background-image: url('../assets/TrueBloodMC.webp');
         background-repeat: no-repeat;
         background-size: 6rem;
         background-position: top center;
