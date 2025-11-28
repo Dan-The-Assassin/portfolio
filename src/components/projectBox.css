@@ -88,4 +88,12 @@
     .boxMain{
     width:95%;
     }
+
+    .shortText{
+    font-size:1rem;
+    }
+
+    .fullDescription{
+    font-size:1rem;
+    }
 }
