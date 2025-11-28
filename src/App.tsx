@@ -36,8 +36,8 @@ function App() {
       <Routes>
         <Route path ="/" element ={<Home/>}/>
         <Route path = "/it" element = {<IT/>}/>
-        <Route path = "/music" element ={<Music/>}/>
         <Route path ="/art" element ={<Art/>}/>
+        <Route path = "/music" element ={<Music/>}/>
       </Routes>
   </div>
       {/*<div id="testAnchor">
