@@ -38,7 +38,7 @@ function IT() {
       shortDescription="A 2D pixel art topdown game made for my master's degree thesis project, a farming sim with a unique twist that blends combat and farming together."
       depthDescription="The player is tasked with taking care of a farm, where the plants turn into enemies at the time of harvest. Most of the systems have been coded to be very easy
       to extend and modify directly from the game engine's interface, using Godot's resource system and signals. The game presents interconnected systems such as: menus with 
-      proper settings, day-night cycle, seasons, pickable/dropable item types such as: tools, seeds, consumables and weapons; an inventory with a hotbar, a farming system, a data 
+      proper settings, day-night cycle, seasons, pickable & dropable item types such as: tools, seeds, consumables and weapons; an inventory with a hotbar, a farming system, a data 
       structure for plants, scene and combat-based music, and a save system that retains all inventory, farming and player related info." 
       depthDescription2="The combat systems make adding new attacks for the player or enemies as easy as typing in the values. The same applies to the enemy system, which contains: a 
       stats, a state machine with states for idle, chase, attacks and transitions; a pool of loot drop items, enemy navigation and field of detection. The player has a similar state
