@@ -30,7 +30,7 @@ function App() {
           <div className="Buttons">
             <PcButton text="Home" path="/" link=""/>
             <PcButton text="IT" path="/it" link=""/>
-            <PcButton text="Music" path="" link="https://www.youtube.com/@DanTheAssassin"/>
+            <PcButton text="Music" path="/music" link=""/>
             <PcButton text="Art" path="" link="https://www.artstation.com/dantheassassin"/>
           </div>
       <Routes>
