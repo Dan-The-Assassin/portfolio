@@ -8,7 +8,6 @@ function Music() {
 <>
     <div className="musicMain">
       <h1>Music</h1>
-      <h2>Sections</h2>
       <ProjectBox titleText="Music compilation" dateText="2020 - 2025" devInfo= "Made using FL Studio."
       shortDescription="A video showcasing the various genres of music I have the knowledge and skills to compose and produce."
       depthDescription="All of the music presented in the video has been produced digitally, only using FL Studio and many of the plugins available for it. I am available for music
