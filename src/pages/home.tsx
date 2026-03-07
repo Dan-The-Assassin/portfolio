@@ -34,8 +34,13 @@ function Home() {
         music or art.</p>
       <p className="FSMC"> 
         I have graduated from the Politehnica University of Bucharest with a master's degree in Graphics, Multimedia and Virtual Reality and have extensive programming experience, 
-        focusing mainly on Object-Oriented Programming. I've also worked on various projects, such as "Beat Dungeon", a rhythm-based rogue-like that reached top 10 in Ubisoft's 
-        "Gamecelerator 6.0" competition, and database work at BirdLife Romania (SOR).</p>
+        focusing mainly on Object-Oriented Programming. I've also worked on various projects, more information can be found about these on the Projects page.</p>
+      <p>
+        Some notable project examples:
+        - A VR boat game made in collaboration with the Politehnica University, to help with hand/arm exercise in healthcare
+        - BeatDungeon, a rhythm game I've made for a Ubisoft game jam, reaching top 10
+        - Database-related work at SOR (BirdLife Romania)
+      </p>
       <p className= "TBMC">
         Below you'll find a list of programming languages, tools, frameworks and engines that I'm knowledgeable about, as well as how to contact me. Interested in working
         with me? Please check the page of what you're interested in first for more information!
