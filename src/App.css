@@ -6,7 +6,8 @@
 }
 
 .main{
-  padding:5% 15%;
+  padding:2% 15%;
+  padding-bottom: 5%;
 }
 
 .name{
@@ -177,6 +178,6 @@
 }
 
   .main{
-    padding:15% 8%;
+    padding:10% 8%;
   }
 }
