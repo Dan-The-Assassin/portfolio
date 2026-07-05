@@ -10,9 +10,10 @@ interface ProjectProps{
     depthDescription2: string;
     videoLink: string;
     imagePath: string;
+    tryLink: string;
 }
 
-function projectBox({titleText, dateText, devInfo, shortDescription, depthDescription, depthDescription2, videoLink, imagePath}: ProjectProps) {
+function projectBox({titleText, dateText, devInfo, shortDescription, depthDescription, depthDescription2, videoLink, imagePath, tryLink}: ProjectProps) {
 
     const [show, setShow] = useState(false);
     function checkShow()
@@ -38,6 +39,14 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
         }
     }
 
+    function IncludeTryLink()
+    {
+        if(tryLink!="")
+        {
+            return(<a href={tryLink} target="_blank" rel="noopener noreferrer">Click to try it out yourself!</a>)
+        }
+    }
+
     return (
       <div className="boxMain" onClick={() => {setShow(!show);}}>
            <h2>{titleText}</h2>
@@ -46,6 +55,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
             </h3>
             <div className="projectMedia">
                 {renderMedia()}
+                {IncludeTryLink()}
             </div>
             <p className="shortText">{shortDescription}</p>
             <p className="arrowExtend" id="arrow">{checkShow()}</p>
