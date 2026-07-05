@@ -27,6 +27,9 @@ function App() {
     <BrowserRouter basename='/portfolio'>
     <ScrollToTop/>
     <div className="main">
+            <img className="pcFrame" src={pcFrame}></img>
+            <div className="blueGlow"></div>
+            <p className="name">DanTheAssassin</p>
           <div className="Buttons">
             <PcButton text="Home" path="/" link=""/>
             <PcButton text="Projects" path="/it" link=""/>
@@ -67,9 +70,6 @@ function App() {
       <img className="crtLines" src={crtLines}></img>
       <div className="screenStatic"></div>
       <div className="blueTint"></div>
-      <img className="pcFrame" src={pcFrame}></img>
-      <p className="name">DanTheAssassin</p>
-      <div className="blueGlow"></div>
     </div>
     </BrowserRouter>
     {/*please don't forget that you copy pasted that weird script into index.html and also copy pasted that 404.html file to fix the issue where refreshing the site when on a page
