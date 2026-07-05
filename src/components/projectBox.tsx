@@ -39,7 +39,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
         }
     }
 
-    function IncludeTryLink()
+    function renderLink()
     {
         if(tryLink!="")
         {
@@ -55,7 +55,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
             </h3>
             <div className="projectMedia">
                 {renderMedia()}
-                {IncludeTryLink()}
+                {renderLink()}
             </div>
             <p className="shortText">{shortDescription}</p>
             <p className="arrowExtend" id="arrow">{checkShow()}</p>
