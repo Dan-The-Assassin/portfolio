@@ -43,7 +43,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
     {
         if(tryLink!="")
         {
-            return(<a href={tryLink} target="_blank" rel="noopener noreferrer">Click to try it out yourself!</a>)
+            return(<a href={tryLink} target="_blank" rel="noopener noreferrer">Click to try it out!</a>)
         }
     }
 
