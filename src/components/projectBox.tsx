@@ -30,8 +30,7 @@ function projectBox({titleText, dateText, devInfo, shortDescription, depthDescri
     function renderMedia(){
         if(videoLink!="")
         {
-            return(<iframe src={videoLink} title="YouTube video player" allow="accelerometer; autoplay; 
-            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>)
+            return(<iframe src={videoLink} title="YouTube video player" allowFullScreen></iframe>)
         }
         if(imagePath!="")
         {

@@ -43,7 +43,7 @@ function IT() {
       depthDescription2="The combat systems make adding new attacks for the player or enemies as easy as typing in the values. The same applies to the enemy system, which contains: a 
       stats, a state machine with states for idle, chase, attacks and transitions; a pool of loot drop items, enemy navigation and field of detection. The player has a similar state
       machine, but connected to the inventory and UI."
-      videoLink="https://www.youtube.com/embed/4XTroj3vDvk?si=4AwTRmvpN9_np5Ga" imagePath=""></ProjectBox>
+      videoLink="https://www.youtube.com/embed/4XTroj3vDvk?rel=0" imagePath=""></ProjectBox>
 
       <ProjectBox titleText="VR Boat Game" dateText=" 18/01/2025 – 15/04/2025 " devInfo="Developed for Meta Quest 2&3 in Unity using C# as well as the XR Unity assets."
       shortDescription="A VR game that simulates boat rowing, made for Politehnica University of Bucharest's TRAVEE (Virtual Therapist with Augmented Feedback for Neuromotor Recovery)
@@ -52,7 +52,7 @@ function IT() {
       exercise in a customizable virtual environment. The player can manipulate the boat's oars using a customizable rowing motion, being tasked with getting to a finish line and
       colliding with collectibles along the way. "
       depthDescription2="The game offers plenty of settings: the boat's speed, the width of the rowing motion, the player position, the oars' sensitivity to hand movement etc." 
-      videoLink="https://www.youtube.com/embed/ry7KRNBON04?si=OhhW1TEjresR_9SK" imagePath=""></ProjectBox>
+      videoLink="https://www.youtube.com/embed/ry7KRNBON04?rel=0" imagePath=""></ProjectBox>
 
       <ProjectBox titleText="TrueBlood" dateText=" 02/2023 – 06/2023 " devInfo="Developed for PC in Unity using C#."
       shortDescription="A 2D side-scroller game made for my bachelor's degree thesis project, the implementation of a basic metroidvania game structure."
@@ -60,7 +60,7 @@ function IT() {
       order to reach the final scene, unlocking abilities and upgrades along the way." 
       depthDescription2='It also features systems such as: player state machine, saving and loading, keyboard and 
       controller support, menus and UI, audio and video settings, combat, simple enemy AI, parallax scrolling, custom collisions, movement such as variable height jump, dashing and 
-      shooting an arrow to teleport at its location.' videoLink="https://www.youtube.com/embed/Hlxo-54WMJM?si=xwhW7xP2eJxrDX_T" imagePath=""></ProjectBox>
+      shooting an arrow to teleport at its location.' videoLink="https://www.youtube.com/embed/Hlxo-54WMJM?rel=0" imagePath=""></ProjectBox>
 
       <ProjectBox titleText="Beat Dungeon" dateText=" 21/04/2019 – 08/06/2019 " devInfo="Developed for PC in Unity using C#."
       shortDescription="A 2D pixel art topdown game made for Ubisoft's 'Gamecelerator 6.0' contest, where it managed to reach top 10."
@@ -74,7 +74,7 @@ function IT() {
       depthDescription="The player has to complete 3 laps through a racing area using a customizable airplane, avoiding trees and other obstacles, collecting coins for score and
       trying to reach the end as fast as possible. The game also features the following systems: a main menu with trophies for every win and an option to change the plane, a data save
       system, checkpoints, and a booster system allowing the player to speed up for a short while."  depthDescription2=''
-      videoLink="https://www.youtube.com/embed/jX817W7OkgE?si=ymGYtT3mr_fE5OPV" imagePath=""></ProjectBox>
+      videoLink="https://www.youtube.com/embed/jX817W7OkgE?rel=0" imagePath=""></ProjectBox>
 
       <h1 id="Graphics">Graphics</h1>
       <ProjectBox titleText="3D Graphics Engine" dateText=" 18/09/2024 – 13/11/2024 " devInfo="Developed for PC using the OpenGL framework."
